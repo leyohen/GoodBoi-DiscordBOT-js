@@ -8,7 +8,7 @@ const ytdl = require('ytdl-core');
 const Fortnite = require('fortnite');
 const client = new Fortnite(process.env.FT_KEY);
 const agree= "âœ…";
-var ADMIN_ID = 'ADMIN_DISCORD_ID'; //YOUR DISCORD ID
+var ADMIN_ID = '139039555180429312'; //YOUR DISCORD ID
 var exec = require('child_process').exec;
 var md = "```";
 //END of Libraries / Dependencies / files 
@@ -28,7 +28,7 @@ bot.on("guildCreate", guild => {
 	var h = maDate.getHours();
 	var s = maDate.getSeconds();
 	var min = maDate.getMinutes();
-	const ADMIN_CHANNEL = bot.channels.get("ADMIN_SERVER_ID","ADMIN_SERVER_CHANNEL"); // 
+	const ADMIN_CHANNEL = bot.channels.get("405792135233798186","376472607714836490"); // ("ADMIN_SERVER_ID","ADMIN_SERVER_CHANNEL")
 	var GUILD_NAME = guild.name;
 	var GUILD_ID = guild.id ;
 	var GUILD_MEMBERCOUNT = guild.memberCount;
