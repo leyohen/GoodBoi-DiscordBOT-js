@@ -65,7 +65,7 @@ bot.on('message',async (message)=>	 { //->>>>>> WHEN A MESSAGE IS SENT
 	  if(command === "hello"){
 		if(message.mentions.users.first()){
 		BOTHIMSELF=message.mentions.users.first();
-		if(BOTHIMSELF.id=='405095442766888960'){
+		if(BOTHIMSELF.id=='399986788753735690'){
 		message.channel.send('hi');
 		message.react("ðŸ‘‹");
 		message.react('404312550554206208');
@@ -79,7 +79,7 @@ bot.on('message',async (message)=>	 { //->>>>>> WHEN A MESSAGE IS SENT
 		if(message.mentions.users.first()){
 		var TaggedUSER = message.mentions.users.first();
 		let avatar = TaggedUSER.displayAvatarURL ; 
-		let embed = {description:"Voici l'avatar de "+TaggedUSER.username+" *[url]("+avatar+")*",image:{url:avatar}}
+		let embed = {description:"Here is the avatar of : "+TaggedUSER.username+" *[url]("+avatar+")*",image:{url:avatar}}
 		 message.channel.send("", {embed});
 		}else{return ;} 
 	  }
