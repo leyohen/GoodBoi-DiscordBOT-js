@@ -1,5 +1,11 @@
-const { Client, Util } = require('discord.js');
-const { TOKEN, PREFIX, GOOGLE_API_KEY, FORTNITE_KEY, ADMIN_ID} = require('./config');
+//const { Client, Util } = require('discord.js');
+const Client = require('discord.js');
+const Util = require('discord.js');
+//const { TOKEN, PREFIX, GOOGLE_API_KEY, FORTNITE_KEY, ADMIN_ID} = require('./config');
+const TOKEN = process.env.BOT_TOKEN ;
+const PREFIX = "??" ;
+const GOOGLE_API_KEY = process.env.GOOGLE_KEY ;
+const FORTNITE_KEY = process.env.FT_KEY ;
 const Discord = require('discord.js');
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
