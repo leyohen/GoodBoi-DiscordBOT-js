@@ -1,3 +1,5 @@
+//const { Client, Util } = require('discord.js');
+//const client = require('discord.js');
 const Util = require('discord.js');
 //const { TOKEN, PREFIX, GOOGLE_API_KEY, FORTNITE_KEY, ADMIN_ID} = require('./config');
 const TOKEN = process.env.BOT_TOKEN ;
@@ -13,6 +15,10 @@ const queue = new Map();
 const Fortnite = require('fortnite');
 const clientFortnite = new Fortnite(FORTNITE_KEY);
 var md = "```";
+var ADMIN_ID = '139039555180429312';
+
+
+//////////////////////////////////////
 
 client.on('ready',()=> { //->>>>>>>>> WHEN THE BOT STARTS
 client.user.setStatus('idle');
