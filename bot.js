@@ -16,7 +16,7 @@ const Fortnite = require('fortnite');
 const clientFortnite = new Fortnite(FORTNITE_KEY);
 var md = "```";
 var ADMIN_ID = '139039555180429312';
-var request = require('request');
+//var request = require('request');
 
 //////////////////////////////////////
 
