@@ -184,14 +184,14 @@ ${serverQueue.songs.map(song => `**-** ${song.title}`).join('\n')}
 		msg.channel.send("", {embed});
 		}else{return ;} 
 	} else if(command === "dog"){
-		var numberimage=Math.floor(Math.random() * Math.floor(imageurl.length));
-		msg.reply(imageurl[numberimage]) 
-		/*  request({
+		/*var numberimage=Math.floor(Math.random() * Math.floor(imageurl.length));
+		msg.reply(imageurl[numberimage]) */
+		  request({
 	  url: 'https://dog.ceo/api/breeds/image/random',
 	  json: true
 	}, function(error, response, body) {
-		message.reply(body.message);	
-		}); */
+		msg.reply(body.message);	
+		}); 
 	} else if(command === "archillect"){
 		var randomnum=Math.floor(Math.random() * Math.floor(183851));
 		msg.channel.send("http://archillect.com/"+randomnum);
